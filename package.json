@@ -1,17 +1,22 @@
 {
-  "name": "cli",
+  "name": "zona-cli",
   "version": "1.0.0",
   "description": "",
   "bin": {
-    "dan": "index.js"
+    "zona": "index.js"
   },
   "scripts": {
+    "postinstall": "node postInstall.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "preferGlobal": true,
+  "author": "Daniel Yo",
   "license": "ISC",
   "dependencies": {
+    "app-root-path": "^3.0.0",
     "chalk": "^4.1.0",
+    "lodash": "^4.17.20",
+    "prompts": "^2.3.2",
     "yargs": "^16.0.3"
   }
 }
