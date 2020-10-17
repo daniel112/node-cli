@@ -6,6 +6,7 @@ const helpers = require('../../helpers')
  * @param {string} alias - alias for the current path
  */
 const setPath = (alias) => {
+  if (!alias) console.log(`${chalk.bold.red('Error:')} Please provide an alias\n${chalk.bold.green('Example:')} zona set myAlias`)
   const currentDir = process.cwd()
   console.log(`linking ${chalk.cyan(currentDir)} to ${chalk.bold.green(alias)}`)
   const configCopy = helpers.getConfig()
