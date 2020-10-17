@@ -2,6 +2,10 @@
 * `yarn install`
 * `yarn link`
 
+## Commands
+* `zona set ${alias}` - sets an alias for the current directory
+* `zona open ${alias}` - opens the alias in vscode 
+
 ## Testing
 * edit `src/repos/musicGame.js` > line 16 && 30 for the right path to your musicGame repo
 * run `dan repos musicGame` on your terminal - navigates to your repo path
