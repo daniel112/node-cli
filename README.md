@@ -15,3 +15,5 @@
 * if you get permission denied after `yarn link`
 * ensure that the root `index.js` has execute permission
   * run `chmod +x index.js`
+
+test
